@@ -110,6 +110,8 @@ export function calculateTilesNeeded(sections: Array<{ width: //...
 	}, 0);
 }
 //11minut
-})
-		]))
-})
+deklaracja testów w package.json:
+"scripts": {
+	...
+	"test:advent": "jest-src/advent/sandbox/index.test.ts"
+},
